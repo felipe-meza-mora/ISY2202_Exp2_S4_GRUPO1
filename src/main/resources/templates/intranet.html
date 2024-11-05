@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intranet</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <link rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <h1>Bienvenido a la Intranet</h1>
+        <p>Has iniciado sesión correctamente.</p>
+        <a href="/logout" class="btn btn-danger">Cerrar Sesión</a>
+    </div>
+
+    <script th:src="@{/bootstrap/js/bootstrap.bundle.min.js}" ></script>
+</body>
+</html>
